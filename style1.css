@@ -1,0 +1,104 @@
+/* mobile screen css */
+@media screen and (max-width: 480px) {
+    body {
+      background-color: lightgreen;
+    }
+    
+  }
+@media screen and (max-width: 1021px) {
+    header{
+        width: 100vw;
+        height: 70vh;
+    }
+    body {
+      background-color: #a8c1a8;
+    }
+    .navbar{
+        position: absolute;
+        /* bottom: 23px; */
+        /* flex-direction: column; */
+        display: flex;
+        justify-content: center;
+        /* margin: auto; */
+        /* display: block; */
+    }
+    .navbar ul{
+        position: absolute;
+        right: 230px;
+        /* margin: auto; */
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* display: block; */
+    }
+    .navbar ul li{
+        padding: 12px 12px;
+    }
+
+  }
+  @media screen and (max-width: 562px) and (min-width:464px) {
+    header{
+        width: 100vw;
+        height: 70vh;
+        display: flex;
+    }
+    body{
+        background-color: antiquewhite;
+    }
+    .navbar ul{
+        position: absolute;
+        right: 130px;
+        /* margin: auto; */
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* display: block; */
+    }
+    .navbar ul li{
+        padding: 12px 12px;
+    }
+}
+@media screen and (max-width: 480px) and (min-width:400px) {
+    header{
+        width: 100vw;
+        height: 80vh;
+        display: flex;
+    }
+    body{
+        background-color: azure;
+    }
+    .navbar ul{
+        position: absolute;
+        right: 80px;
+        /* margin: auto; */
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* display: block; */
+    }
+    .navbar ul li{
+        padding: 12px 12px;
+    }
+}
+@media screen and (max-width: 403px) and (min-width:343px){
+    header{
+        width: 100vw;
+        height: 90vh;
+        display: flex;
+    }
+    body{
+        background-color: rgb(21, 152, 152);
+    }
+    .navbar ul{
+        position: absolute;
+        right: 18px;
+        /* margin: auto; */
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* display: block; */
+    }
+    .navbar ul li{
+        padding: 12px 12px;
+    }
+}
